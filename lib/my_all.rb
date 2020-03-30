@@ -1,8 +1,8 @@
 def my_all?(collection)
   i = 0
   block_return_values = []
-  while i < collection.length
-    block_return_yield << (collection[i])
+  while i < collection.size
+    block_return_yield.push (collection[i])
     i = i + 1
   end
 
