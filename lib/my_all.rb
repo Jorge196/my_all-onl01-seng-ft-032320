@@ -10,4 +10,4 @@ def my_all?(collection)
     true
 end
 
- my_all?(array){collection| collection.length <=3}
+ my_all?(array){collection| collection.length <=i}
