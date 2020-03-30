@@ -10,4 +10,4 @@ def my_all?(collection)
     puts block_return_values
 end
 
- my_all?(collection){collection| collection.length <=3}
+ my_all?(array){collection| collection.length <=3}
