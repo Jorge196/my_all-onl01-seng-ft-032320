@@ -7,10 +7,5 @@ def my_all?(collection)
     block_return_yield << yield(collection[i])
     i += 1
   end
-
-  if block_return_values.include?(false)
-    false
-  else
-    true
-  end
+    puts block_return_values
 end
