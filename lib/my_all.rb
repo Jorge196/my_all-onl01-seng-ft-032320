@@ -9,3 +9,5 @@ def my_all?(collection)
   end
     puts block_return_values
 end
+
+puts my_all?(collection){collection| collection.length <=3}
